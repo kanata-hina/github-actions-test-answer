@@ -13,5 +13,5 @@ jobs:
           python-version: '3.9'
       
       - name: Test
-        run: python add_test.py
+        run: python -m unittest add_test
         working-directory: ./python
